@@ -1,9 +1,5 @@
 from ortools.sat.python import cp_model
  
-print("\n" + "=" * 50)
-print("TASK 4 – Basic CSP")
-print("=" * 50)
- 
 csp = cp_model.CpModel()
  
 p = csp.new_int_var(0, 3, "P") 
